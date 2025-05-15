@@ -617,9 +617,7 @@ input, textarea {
   color: white;
 }
 
-.text-justify {
-  text-align: justify;
-}
+
 
 
 
@@ -845,7 +843,7 @@ html, body {
 }
 
 .heightcont {
-  height: 7rem;
+  height: 10rem;
 }
 
 .widthicono {
@@ -890,6 +888,14 @@ a {
 
 
 
+
+
+
+@media (min-width: 425px) {
+  .text-justify {
+    text-align: justify;
+  }
+}
 
 
 
